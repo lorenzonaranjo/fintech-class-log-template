@@ -2,11 +2,11 @@
 
 FIN 4506/5506, Spring 2027, second half (Professor Naranjo).
 
-This repository is yours alone. Each class ends with a short task, and you record your work on it in that session's `log.md`, then commit and push before you leave.
+This repository is yours alone. Each class ends with a short task: you record your work on it in that session's `log.md`, hand the file in on Canvas before you leave, and commit it here.
 
 ## How it counts
 
-Your participation grade for the second half comes from this log. A session counts when your `log.md` for that session has your work in it and was **pushed to GitHub before the end of that class**. GitHub records when each push arrives, so a push made after class does not count for that session, whatever the commit says.
+Your participation grade for the second half comes from this log. A session counts when your `log.md` for that session, with your work in it, is **uploaded to that session's Canvas assignment before the end of that class**. Canvas records when each file arrives, so an upload after class does not count for that session.
 
 The log is graded for completion, not for being right. You may use Claude or any other tool. The task is a problem in the format of the final exam, though, and the final is closed book, so the log is your practice for it.
 
@@ -15,15 +15,14 @@ The log is graded for completion, not for being right. You may use Claude or any
 1. Open the session's folder, for example `session-03-03-30/log.md`.
 2. Copy the task from the course site into the **Task** section.
 3. Work on it, and write your answer, what you checked, and what is still unclear.
-4. Commit and push:
+4. Upload `log.md` to the session's Canvas assignment. This is what counts.
+5. Commit and push, so that your log is kept with its history:
 
    ```bash
    git add -A
    git commit -m "Session 3"
    git push
    ```
-
-5. Check on GitHub that the push arrived.
 
 If the task involves code, put the code file in the same folder.
 
@@ -41,7 +40,8 @@ Do this once, before the first class on March 23. You set up one Python environm
 
 3. **Python.** Install Python 3.13 from <https://www.python.org/downloads/>. On Windows, tick "Add python.exe to PATH" in the installer.
 4. **Claude Code.** Follow the installation instructions at <https://code.claude.com/docs/en/setup>, then run `claude` in a terminal and log in with your WashU Claude account.
-5. **A course folder with the Python environment.** Make a folder for the course, create the environment in it, and clone this repository into it (accept the GitHub Classroom invitation on Canvas first to get the URL):
+5. **Your class log on GitHub.** Open <https://github.com/lorenzonaranjo/fintech-class-log-template>, click **Use this template**, then **Create a new repository**. Choose your own account as the owner, name it `fin4506-class-log`, and select **Private**. Copy its URL from the green **Code** button.
+6. **A course folder with the Python environment.** Make a folder for the course, create the environment in it, and clone your class log into it:
 
    ```bash
    mkdir fin4506

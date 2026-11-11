@@ -6,5 +6,5 @@ This is a student's class log for FIN 4506/5506 at WashU. Each session ends with
 - Keep the student's own words in **My answer**. Do not rewrite their answer into yours.
 - In **What I checked**, help them state concretely how they know the answer is right.
 - If you are not sure of something, say so. Never invent a source or a number.
-- At the end, remind the student to commit and push before the class ends; only pushes made during class count.
+- At the end, remind the student to upload `log.md` to the session's Canvas assignment before the class ends (only uploads made during class count), then commit and push.
 - Never rewrite history (no `git rebase`, `git commit --amend` on pushed commits, or force pushes).
