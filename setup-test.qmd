@@ -1,0 +1,18 @@
+---
+title: "Setup test"
+format:
+  html:
+    embed-resources: true
+---
+
+If this page shows a figure, Python and Quarto work together.
+
+```{python}
+#| fig-alt: "An empty chart whose title reports the Python version."
+import sys
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(6, 3))
+ax.set_title(f"Python {sys.version.split()[0]} is working")
+plt.show()
+```
