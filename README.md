@@ -58,6 +58,8 @@ Do this once, before the first class on March 23. You set up one Python environm
    python check_setup.py
    ```
 
+   On Linux, including WSL on Windows, run `pip install torch --index-url https://download.pytorch.org/whl/cpu` before `pip install -r requirements.txt`. Otherwise pip downloads several gigabytes of GPU libraries you do not need.
+
 `check_setup.py` checks each piece and tells you what is missing, then renders a test page. Come to the first class with every line passing, or with the output of the script if something fails.
 
 Every time you work on the course, open a terminal, go to `fin4506`, and activate the environment first.
