@@ -4,6 +4,10 @@
 
 Copy the task from the course site here.
 
+## Output
+
+What the code printed, each time you ran it.
+
 ## My answer
 
 ## What I checked

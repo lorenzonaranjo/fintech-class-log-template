@@ -2,29 +2,32 @@
 
 FIN 4506/5506, Spring 2027, second half (Professor Naranjo).
 
-This repository is yours alone. Each class ends with a short task: you record your work on it in that session's `log.md`, hand the file in on Canvas before you leave, and commit it here.
+This repository is yours alone. Each class ends with a short task: you run some code, change something in it, and explain what you see. You keep that work in the session's folder, commit it, and hand in the whole log on Canvas before you leave.
 
 ## How it counts
 
-Your participation grade for the second half comes from this log. A session counts when your `log.md` for that session, with your work in it, is **uploaded to that session's Canvas assignment before the end of that class**. Canvas records when each file arrives, so an upload after class does not count for that session.
+Your participation grade for the second half comes from attendance and from this log. A session counts when the file made by `submit.py`, with that session's work committed in it, is **uploaded to that session's Canvas assignment before the end of that class**. Canvas records when each file arrives, so an upload after class does not count for that session.
 
-The log is graded for completion, not for being right. You may use Claude or any other tool. The task is a problem in the format of the final exam, though, and the final is closed book, so the log is your practice for it.
+The log is graded for completion, not for being right. You may use Claude or any other tool. The point is to work through the ideas of each class with the code in front of you; the final exam is on paper and closed book.
 
 ## Each session
 
-1. Open the session's folder, for example `session-03-03-30/log.md`.
-2. Copy the task from the course site into the **Task** section.
-3. Work on it, and write your answer, what you checked, and what is still unclear.
-4. Upload `log.md` to the session's Canvas assignment. This is what counts.
-5. Commit and push, so that your log is kept with its history:
+1. Open the session's folder, for example `session-03-03-30/`, and copy the task from the course site into the **Task** section of `log.md`.
+2. Save the task's code in the same folder, for example as `task.py`, and run it with `python task.py`. Paste what it prints into the **Output** section.
+3. Make the changes the task asks for, run the code again, and paste each new output.
+4. Write your explanation in **My answer**, how you know it is right in **What I checked**, and what is still unclear.
+5. Commit, make the file to hand in, and upload it to the session's Canvas assignment. This is what counts:
 
    ```bash
    git add -A
    git commit -m "Session 3"
-   git push
+   python submit.py
    ```
 
-If the task involves code, put the code file in the same folder.
+   `submit.py` writes a file such as `class-log-2027-03-30-1545.bundle` in your course folder, with your whole log and its history. Upload that file. (GitHub's "Download ZIP" button leaves out the history, so do not use it.)
+6. Push, so that GitHub keeps a copy: `git push`.
+
+Commit as you work, not only at the end: the history of your log shows how you worked through each task.
 
 ## Setup
 
