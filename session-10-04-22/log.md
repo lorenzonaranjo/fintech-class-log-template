@@ -1,18 +1,38 @@
 # Session 10, April 22: Stablecoins, tokenization, and regulation
 
-## Task
+Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 
-Copy the task from the course site here.
+## Checkpoint 1
 
-## Output
+### Output
 
 What the code printed, each time you ran it.
 
-## My answer
+### Answer
 
-## What I checked
+## Checkpoint 2
 
-How you know your answer is right: a calculation you redid, a source you looked up, code you ran.
+### Output
+
+What the code printed, each time you ran it.
+
+### Answer
+
+## Checkpoint 3
+
+### Output
+
+What the code printed, each time you ran it.
+
+### Answer
+
+## Checkpoint 4
+
+### Output
+
+What the code printed, each time you ran it.
+
+### Answer
 
 ## Still unclear
 

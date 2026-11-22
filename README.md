@@ -2,7 +2,7 @@
 
 FIN 4506/5506, Spring 2027, second half (Professor Naranjo).
 
-This repository is yours alone. Each class ends with a short task: you run some code, change something in it, and explain what you see. You keep that work in the session's folder, commit it, and hand in the whole log on Canvas before you leave.
+This repository is yours alone. Each class has three or four checkpoints, each after a part of the class: you run some code, change something in it, and explain what you see. You keep that work in the session's folder, commit after each checkpoint, and hand in the whole log on Canvas before you leave.
 
 ## How it counts
 
@@ -12,22 +12,29 @@ The log is graded for completion, not for being right. You may use Claude or any
 
 ## Each session
 
-1. Open the session's folder, for example `session-03-03-30/`, and copy the task from the course site into the **Task** section of `log.md`.
-2. Save the task's code in the same folder, for example as `task.py`, and run it with `python task.py`. Paste what it prints into the **Output** section.
-3. Make the changes the task asks for, run the code again, and paste each new output.
-4. Write your explanation in **My answer**, how you know it is right in **What I checked**, and what is still unclear.
-5. Commit, make the file to hand in, and upload it to the session's Canvas assignment. This is what counts:
+For each checkpoint on the course site:
+
+1. Save the checkpoint's code in the session's folder, for example as `session-03-03-30/checkpoint-1.py`, and run it from your class log folder with `python session-03-03-30/checkpoint-1.py`. In `log.md`, paste what it prints under that checkpoint's **Output**.
+2. Make the changes the checkpoint asks for, run the code again, and paste each new output.
+3. Write your answers under the checkpoint's **Answer**.
+4. Commit:
 
    ```bash
    git add -A
-   git commit -m "Session 3"
+   git commit -m "Session 3, checkpoint 1"
+   ```
+
+At the end of the class:
+
+1. Write what is still unclear in **Still unclear** and commit.
+2. Make the file to hand in and upload it to the session's Canvas assignment. This is what counts:
+
+   ```bash
    python submit.py
    ```
 
    `submit.py` writes a file such as `class-log-2027-03-30-1545.bundle` in your course folder, with your whole log and its history. Upload that file. (GitHub's "Download ZIP" button leaves out the history, so do not use it.)
-6. Push, so that GitHub keeps a copy: `git push`.
-
-Commit as you work, not only at the end: the history of your log shows how you worked through each task.
+3. Push, so that GitHub keeps a copy: `git push`.
 
 ## Setup
 
