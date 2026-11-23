@@ -1,4 +1,4 @@
-# Session 9, April 20: Decentralized finance II: lending protocols, liquidations, and oracles
+# Session 9, April 20: Blockchain II: proof of stake, security, and finality
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

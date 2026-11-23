@@ -1,4 +1,4 @@
-# Session 4, April 1: Neural networks II: option pricing and the volatility surface
+# Session 4, April 1: Neural networks II: lending
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

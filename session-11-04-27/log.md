@@ -1,4 +1,4 @@
-# Session 11, April 27: Topic to be announced
+# Session 11, April 27: Stablecoins, tokenization, and regulation
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

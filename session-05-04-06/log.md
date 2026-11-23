@@ -1,4 +1,4 @@
-# Session 5, April 6: Language models in finance: text as data
+# Session 5, April 6: Neural networks III: option pricing
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

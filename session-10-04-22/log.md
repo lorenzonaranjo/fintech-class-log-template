@@ -1,4 +1,4 @@
-# Session 10, April 22: Stablecoins, tokenization, and regulation
+# Session 10, April 22: Decentralized finance: automated market makers, lending protocols, and liquidations
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

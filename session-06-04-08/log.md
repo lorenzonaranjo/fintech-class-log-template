@@ -1,4 +1,4 @@
-# Session 6, April 8: Blockchain I: hashing and proof of work
+# Session 6, April 8: Neural networks IV: predicting returns
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

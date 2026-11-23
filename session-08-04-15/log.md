@@ -1,4 +1,4 @@
-# Session 8, April 15: Decentralized finance I: automated market makers
+# Session 8, April 15: Blockchain I: hashing and proof of work
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 

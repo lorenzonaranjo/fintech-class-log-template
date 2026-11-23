@@ -1,4 +1,4 @@
-# Session 7, April 13: Blockchain II: proof of stake, security, and finality
+# Session 7, April 13: Language models in finance
 
 Each checkpoint on the course site has a section below. If the session has three checkpoints, leave Checkpoint 4 empty.
 
